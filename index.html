@@ -3,66 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HSK 1 在线词典</title>
+    <title>HSK 1 数字化词典</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .clickable:active { transform: scale(0.98); }
+        .clickable:active { transform: scale(0.95); transition: 0.1s; }
+        .card-enter { animation: fadeInUp 0.5s ease forwards; }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
-<body class="bg-gray-50 p-4 md:p-10">
-    <header class="text-center mb-10">
-        <h1 class="text-3xl font-bold text-blue-900">HSK 2025 数字化词典</h1>
-        <p class="text-gray-500 mt-2">Level 1 (1-30词) · 点击文字朗读</p>
+<body class="bg-slate-50 min-h-screen p-4 md:p-8">
+    <header class="text-center mb-8">
+        <h1 class="text-3xl font-extrabold text-slate-800">HSK 2025 数字化词典</h1>
+        <p class="text-blue-600 font-medium mt-2">Level 1 (1-30词) · 点击文字点读</p>
     </header>
 
-    <div id="error-msg" class="text-red-500 text-center hidden">数据加载失败，请检查文件路径。</div>
+    <div id="status" class="text-center text-slate-400 py-10">正在加载词典数据...</div>
 
-    <div id="dictionary" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        </div>
+    <div id="dictionary" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto"></div>
 
     <script>
-        // 朗读功能
+        const paths = ['/Hsk-1/part-01.json', '/hsk-1/part-01.json', './Hsk-1/part-01.json'];
+
         function speak(text) {
             if (!text) return;
-            window.speechSynthesis.cancel(); // 停止之前的朗读
+            window.speechSynthesis.cancel();
             const msg = new SpeechSynthesisUtterance(text);
             msg.lang = 'zh-CN';
-            msg.rate = 0.8; 
+            msg.rate = 0.8;
             window.speechSynthesis.speak(msg);
         }
 
-        async function loadData() {
+        async function init() {
             const container = document.getElementById('dictionary');
-            const errorDiv = document.getElementById('error-msg');
+            const status = document.getElementById('status');
+            let data = null;
 
-            try {
-                // 请确保路径与 GitHub 中完全一致
-                const resp = await fetch('/Hsk-1/part-01.json');
-                if (!resp.ok) throw new Error('找不到数据文件');
-                
-                const words = await resp.json();
-                
-                let htmlContent = '';
-                words.forEach(word => {
-                    const imgTag = word.image ? 
-                        `<img src="${word.image}" class="w-full h-48 object-cover rounded-lg mb-4">` : 
-                        `<div class="h-48 bg-gray-200 rounded-lg mb-4 flex items-center justify-center text-gray-400">虚词/助词</div>`;
-                    
-                    htmlContent += `
-                        <div class="bg-white rounded-xl shadow-sm p-5 border border-gray-100 transition-all">
-                            ${imgTag}
-                            <div class="flex justify-between items-center mb-3">
-                                <span onclick="speak('${word.word}')" class="text-2xl font-bold text-gray-800 cursor-pointer hover:text-blue-600 clickable">
-                                    ${word.word} 🔊
-                                </span>
-                                <span class="text-blue-500 font-medium">${word.pinyin}</span>
-                            </div>
-                            <div class="text-sm text-gray-600 mb-4 pb-2 border-b">
-                                <p><strong>EN:</strong> ${word.english}</p>
-                                <p dir="rtl" class="text-right font-medium text-lg"><strong>AR:</strong> ${word.arabic}</p>
-                            </div>
-                            <div onclick="speak('${word.sentence_cn}')" class="bg-blue-50 p-3 rounded-lg text-sm cursor-pointer hover:bg-blue-100 clickable">
-                                <p class="font-bold text-gray-800 text-base">${word.sentence_cn} 🔊</p>
-                                <p class="text-blue-400 italic">${word.sentence_py}</p>
-                                <p class="text-gray-500 mt-1 text-xs">${word.sentence_en}</p>
-                            </div>
+            // 自动尝试所有可能的路径
+            for (let path of paths) {
+                try {
+                    const resp = await fetch(path);
+                    if (resp.ok) {
+                        data = await resp.json();
+                        console.log('成功加载路径:', path);
+                        break;
+                    }
+                } catch (e) { continue; }
+            }
+
+            if (!data) {
+                status.innerHTML = `<div class="text-red-500">无法读取数据。请检查 Hsk-1 文件夹内是否有 part-01.json</div>`;
+                return;
+            }
+
+            status.classList.add('hidden');
+            
+            data.forEach((word, index) => {
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-2xl shadow-sm border border-slate-100 p-5 card-enter';
+                card.style.animationDelay = `${index * 0.05}s`;
+
+                const imageHtml = word.image ? 
+                    `<img src="${word.image}" class="w-full h-44 object-cover rounded-xl mb-4 bg-slate-100">` : 
+                    `<div class="w-full h-44 bg-slate-100 rounded-xl mb-4 flex items-center justify-center text-slate-300 font-bold italic text-sm">IMAGE</div>`;
+
+                card.innerHTML = `
+                    ${imageHtml}
+                    <div class="flex justify-between items-center mb-4">
+                        <div onclick="speak('${word.word}')" class="group cursor-pointer clickable">
+                            <span class="text-3xl font-bold text-slate-800 group-hover:text-blue-600 transition-colors">${word.word}</span>
+                            <span class="text-xl ml-1 text-blue-300 group-hover:text-blue-500 text-sm">🔊</span>
+                        </div>
+                        <span class="text-blue-500 font-semibold tracking-wide">${word.pinyin}</span>
+                    </div>
+                    <div class="space-y-1 mb-5 text-sm border-l-2 border-slate-100 pl-3">
+                        <p class="text-slate-600"><span class="text-slate-400 mr-1">EN:</span> ${word.english}</p>
+                        <p dir="rtl" class="text-right font-medium text-slate-700 leading-relaxed">${word.arabic}</p>
+                    </div>
+                    <div onclick="speak('${word.sentence_cn}')" class="bg-blue-50/50 hover:bg-blue-50 p-4 rounded-xl cursor-pointer clickable transition-colors group">
+                        <p class="font-bold text-slate-800 mb-1 group-hover:text-blue-700">${word.sentence_cn} <span class="text-blue-300">🔊</span></p>
+                        <p class="text-blue-400 text-xs italic mb-1">${word.sentence_py}</p>
+                        <p class="text-slate-500 text-xs">${word.sentence_en}</p>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        init();
+    </script>
+</body>
+</html>
