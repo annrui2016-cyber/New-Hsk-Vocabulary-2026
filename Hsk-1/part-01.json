@@ -6,8 +6,8 @@
     "english": "to love",
     "arabic": "حب / يحب",
     "image": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=300",
-    "sentence_cn": "我爱爸爸。",
-    "sentence_py": "Wǒ ài bàba.",
+    "sentence_cn": "我爱我爸爸。",
+    "sentence_py": "Wǒ ài wǒ bàba.",
     "sentence_en": "I love my dad."
   },
   {
@@ -17,9 +17,9 @@
     "english": "eight",
     "arabic": "ثمانية",
     "image": "https://images.unsplash.com/photo-1598230105342-073070b42f1b?w=300",
-    "sentence_cn": "他有八个杯子。",
-    "sentence_py": "Tā yǒu bā gè bēizi.",
-    "sentence_en": "He has eight cups."
+    "sentence_cn": "我有八个杯子。",
+    "sentence_py": "Wǒ yǒu bā gè bēizi.",
+    "sentence_en": "I have eight cups."
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@
     "image": "",
     "sentence_cn": "我们吃菜吧。",
     "sentence_py": "Wǒmen chī cài ba.",
-    "sentence_en": "Let's eat (vegetables/dishes)."
+    "sentence_en": "Let's eat vegetables."
   },
   {
     "id": 5,
@@ -50,9 +50,9 @@
     "english": "daytime",
     "arabic": "النهار",
     "image": "https://images.unsplash.com/photo-1470252649358-96752a80b94c?w=300",
-    "sentence_cn": "白天我不睡觉。",
-    "sentence_py": "Báitiān wǒ bù shuìjiào.",
-    "sentence_en": "I don't sleep during the daytime."
+    "sentence_cn": "白天我去学校。",
+    "sentence_py": "Báitiān wǒ qù xuéxiào.",
+    "sentence_en": "I go to school during the daytime."
   },
   {
     "id": 6,
@@ -61,9 +61,9 @@
     "english": "hundred",
     "arabic": "مئة",
     "image": "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?w=300",
-    "sentence_cn": "这一百块钱。",
-    "sentence_py": "Zhè yībǎi kuài qián.",
-    "sentence_en": "This is one hundred yuan."
+    "sentence_cn": "这有一百块钱。",
+    "sentence_py": "Zhè yǒu yībǎi kuài qián.",
+    "sentence_en": "There is one hundred yuan here."
   },
   {
     "id": 7,
@@ -94,9 +94,9 @@
     "english": "cup / glass",
     "arabic": "كوب",
     "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
-    "sentence_cn": "桌子上有杯子。",
-    "sentence_py": "Zhuōzi shàng yǒu bēizi.",
-    "sentence_en": "There is a cup on the table."
+    "sentence_cn": "这是谁的杯子？",
+    "sentence_py": "Zhè shì shéi de bēizi?",
+    "sentence_en": "Whose cup is this?"
   },
   {
     "id": 10,
@@ -126,4 +126,207 @@
     "pinyin": "bìng",
     "english": "illness / sick",
     "arabic": "مرض",
-    "image": "
+    "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=300",
+    "sentence_cn": "我不舒服，生病了。",
+    "sentence_py": "Wǒ bù shūfu, shēngbìng le.",
+    "sentence_en": "I don't feel well, I'm sick."
+  },
+  {
+    "id": 13,
+    "word": "不",
+    "pinyin": "bù",
+    "english": "not / no",
+    "arabic": "لا",
+    "image": "",
+    "sentence_cn": "我不去超市。",
+    "sentence_py": "Wǒ bù qù chāoshì.",
+    "sentence_en": "I am not going to the supermarket."
+  },
+  {
+    "id": 14,
+    "word": "不客气",
+    "pinyin": "bú kèqi",
+    "english": "you're welcome",
+    "arabic": "على الرحب والسعة",
+    "image": "https://images.unsplash.com/photo-1516733958028-966805111c2e?w=300",
+    "sentence_cn": "谢谢！不客气。",
+    "sentence_py": "Xièxie! Bú kèqi.",
+    "sentence_en": "Thanks! You are welcome."
+  },
+  {
+    "id": 15,
+    "word": "不要",
+    "pinyin": "búyào",
+    "english": "don't",
+    "arabic": "لا تفعل",
+    "image": "",
+    "sentence_cn": "不要打电话。",
+    "sentence_py": "Búyào dǎ diànhuà.",
+    "sentence_en": "Don't make phone calls."
+  },
+  {
+    "id": 16,
+    "word": "菜",
+    "pinyin": "cài",
+    "english": "dish / vegetable",
+    "arabic": "طبق / خضار",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300",
+    "sentence_cn": "妈妈做的菜很好吃。",
+    "sentence_py": "Māma zuò de cài hěn hǎochī.",
+    "sentence_en": "The dish mom cooked is delicious."
+  },
+  {
+    "id": 17,
+    "word": "茶",
+    "pinyin": "chá",
+    "english": "tea",
+    "arabic": "شاي",
+    "image": "https://images.unsplash.com/photo-1544787210-2213d84ad964?w=300",
+    "sentence_cn": "请喝茶。",
+    "sentence_py": "Qǐng hē chá.",
+    "sentence_en": "Please drink some tea."
+  },
+  {
+    "id": 18,
+    "word": "唱",
+    "pinyin": "chàng",
+    "english": "to sing",
+    "arabic": "يغني",
+    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=300",
+    "sentence_cn": "她喜欢唱歌。",
+    "sentence_py": "Tā xǐhuan chànggē.",
+    "sentence_en": "She likes singing."
+  },
+  {
+    "id": 19,
+    "word": "超市",
+    "pinyin": "chāoshì",
+    "english": "supermarket",
+    "arabic": "سوبر ماركت",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=300",
+    "sentence_cn": "超市里有很多人。",
+    "sentence_py": "Chāoshì lǐ yǒu hěn duō rén.",
+    "sentence_en": "There are many people in the supermarket."
+  },
+  {
+    "id": 20,
+    "word": "车",
+    "pinyin": "chē",
+    "english": "car / vehicle",
+    "arabic": "سيارة",
+    "image": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=300",
+    "sentence_cn": "这是我的车。",
+    "sentence_py": "Zhè shì wǒ de chē.",
+    "sentence_en": "This is my car."
+  },
+  {
+    "id": 21,
+    "word": "吃",
+    "pinyin": "chī",
+    "english": "to eat",
+    "arabic": "يأكل",
+    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c170db06?w=300",
+    "sentence_cn": "你吃什么？",
+    "sentence_py": "Nǐ chī shénme?",
+    "sentence_en": "What do you eat?"
+  },
+  {
+    "id": 22,
+    "word": "出租车",
+    "pinyin": "chūzūchē",
+    "english": "taxi",
+    "arabic": "تاكسي",
+    "image": "https://images.unsplash.com/photo-1490604001847-b712b0c2f967?w=300",
+    "sentence_cn": "我坐出租车去学校。",
+    "sentence_py": "Wǒ zuò chūzūchē qù xuéxiào.",
+    "sentence_en": "I take a taxi to school."
+  },
+  {
+    "id": 23,
+    "word": "穿",
+    "pinyin": "chuān",
+    "english": "to wear",
+    "arabic": "يرتدي",
+    "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=300",
+    "sentence_cn": "今天穿什么？",
+    "sentence_py": "Jīntiān chuān shénme?",
+    "sentence_en": "What to wear today?"
+  },
+  {
+    "id": 24,
+    "word": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "english": "to call",
+    "arabic": "يتصل",
+    "image": "https://images.unsplash.com/photo-1520923642038-b4259ace9751?w=300",
+    "sentence_cn": "她在给爸爸打电话。",
+    "sentence_py": "Tā zài gěi bàba dǎ diànhuà.",
+    "sentence_en": "She is calling her dad."
+  },
+  {
+    "id": 25,
+    "word": "大",
+    "pinyin": "dà",
+    "english": "big",
+    "arabic": "كبير",
+    "image": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?w=300",
+    "sentence_cn": "这个苹果很大。",
+    "sentence_py": "Zhège píngguǒ hěn dà.",
+    "sentence_en": "This apple is very big."
+  },
+  {
+    "id": 26,
+    "word": "大家",
+    "pinyin": "dàjiā",
+    "english": "everyone",
+    "arabic": "الجميع",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=300",
+    "sentence_cn": "大家好！",
+    "sentence_py": "Dàjiā hǎo!",
+    "sentence_en": "Hello everyone!"
+  },
+  {
+    "id": 27,
+    "word": "大学",
+    "pinyin": "dàxué",
+    "english": "university",
+    "arabic": "جامعة",
+    "image": "https://images.unsplash.com/photo-1523050853064-85049f3ef0a1?w=300",
+    "sentence_cn": "他在大学学习汉语。",
+    "sentence_py": "Tā zài dàxué xuéxí Hànyǔ.",
+    "sentence_en": "He studies Chinese at the university."
+  },
+  {
+    "id": 28,
+    "word": "大学生",
+    "pinyin": "dàxuésheng",
+    "english": "college student",
+    "arabic": "طالب جامعي",
+    "image": "https://images.unsplash.com/photo-1541339907198-e08759dfc3ef?w=300",
+    "sentence_cn": "我哥哥是大学生。",
+    "sentence_py": "Wǒ gēge shì dàxuésheng.",
+    "sentence_en": "My older brother is a university student."
+  },
+  {
+    "id": 29,
+    "word": "到",
+    "pinyin": "dào",
+    "english": "to arrive",
+    "arabic": "يصل",
+    "image": "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=300",
+    "sentence_cn": "我到家了。",
+    "sentence_py": "Wǒ dào jiā le.",
+    "sentence_en": "I arrived home."
+  },
+  {
+    "id": 30,
+    "word": "的",
+    "pinyin": "de",
+    "english": "possessive particle",
+    "arabic": "أداة ملكية",
+    "image": "",
+    "sentence_cn": "这是我的书。",
+    "sentence_py": "Zhè shì wǒ de shū.",
+    "sentence_en": "This is my book."
+  }
+]
