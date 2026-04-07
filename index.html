@@ -32,7 +32,7 @@
             window.speechSynthesis.cancel();
             const msg = new SpeechSynthesisUtterance(text);
             msg.lang = 'zh-CN';
-            msg.rate = 0.6;
+            msg.rate = 0.6; // 保持较慢语速
             window.speechSynthesis.speak(msg);
         }
 
@@ -41,13 +41,11 @@
             const status = document.getElementById('status');
             let data = null;
 
-            // 自动尝试所有可能的路径
             for (let path of paths) {
                 try {
                     const resp = await fetch(path);
                     if (resp.ok) {
                         data = await resp.json();
-                        console.log('成功加载路径:', path);
                         break;
                     }
                 } catch (e) { continue; }
@@ -65,9 +63,11 @@
                 card.className = 'bg-white rounded-2xl shadow-sm border border-slate-100 p-5 card-enter';
                 card.style.animationDelay = `${index * 0.05}s`;
 
+                // --- 这里是修改后的图片显示逻辑 ---
                 const imageHtml = word.image ? 
-                    `<img src="${word.image}" class="w-full h-44 object-cover rounded-xl mb-4 bg-slate-100">` : 
-                    `<div class="w-full h-44 bg-slate-100 rounded-xl mb-4 flex items-center justify-center text-slate-300 font-bold italic text-sm">IMAGE</div>`;
+                    `<img src="${word.image}" class="w-full h-72 object-cover rounded-xl mb-4 bg-slate-100 shadow-inner">` : 
+                    `<div class="w-full h-72 bg-slate-100 rounded-xl mb-4 flex items-center justify-center text-slate-300 font-bold italic text-sm">IMAGE</div>`;
+                // --------------------------------
 
                 card.innerHTML = `
                     ${imageHtml}
