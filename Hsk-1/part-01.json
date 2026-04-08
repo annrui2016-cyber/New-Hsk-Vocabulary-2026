@@ -16,7 +16,7 @@
     "pinyin": "bā",
     "english": "eight",
     "arabic": "ثمانية",
-    "image": "https://images.unsplash.com/photo-1598230105342-073070b42f1b?w=300",
+    "image": "./Hsk-1/images/2-ba.png",
     "sentence_cn": "我有八个杯子。",
     "sentence_py": "Wǒ yǒu bā gè bēizi.",
     "sentence_en": "I have eight cups."
@@ -27,7 +27,7 @@
     "pinyin": "bàba",
     "english": "dad / father",
     "arabic": "أب / بابا",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300",
+     "image": "./Hsk-1/images/3-baba.png",
     "sentence_cn": "我爸爸是老师。",
     "sentence_py": "Wǒ bàba shì lǎoshī.",
     "sentence_en": "My dad is a teacher."
@@ -38,7 +38,7 @@
     "pinyin": "ba",
     "english": "particle (suggestion)",
     "arabic": "أداة اقتراح",
-    "image": "",
+     "image": "./Hsk-1/images/4-ba.png",
     "sentence_cn": "我们吃菜吧。",
     "sentence_py": "Wǒmen chī cài ba.",
     "sentence_en": "Let's eat vegetables."
@@ -49,7 +49,7 @@
     "pinyin": "báitiān",
     "english": "daytime",
     "arabic": "النهار",
-    "image": "https://images.unsplash.com/photo-1470252649358-96752a80b94c?w=300",
+    "image": "./Hsk-1/images/5-baitian.png",
     "sentence_cn": "白天我去学校。",
     "sentence_py": "Báitiān wǒ qù xuéxiào.",
     "sentence_en": "I go to school during the daytime."
@@ -60,7 +60,7 @@
     "pinyin": "bǎi",
     "english": "hundred",
     "arabic": "مئة",
-    "image": "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?w=300",
+    "image": "./Hsk-1/images/6-bai.png",
     "sentence_cn": "这有一百块钱。",
     "sentence_py": "Zhè yǒu yībǎi kuài qián.",
     "sentence_en": "There is one hundred yuan here."
@@ -71,7 +71,7 @@
     "pinyin": "bàn",
     "english": "half",
     "arabic": "نصف",
-    "image": "https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?w=300",
+    "image": "./Hsk-1/images/7-ban.png",
     "sentence_cn": "现在三点半。",
     "sentence_py": "Xiànzài sāndiǎn bàn.",
     "sentence_en": "It is half past three now."
@@ -82,7 +82,7 @@
     "pinyin": "bāozi",
     "english": "steamed bun",
     "arabic": "باوزي",
-    "image": "https://images.unsplash.com/photo-1623341214825-9f4f963727da?w=300",
+     "image": "./Hsk-1/images/8-baozi.png",
     "sentence_cn": "包子很好吃。",
     "sentence_py": "Bāozi hěn hǎochī.",
     "sentence_en": "The steamed buns are delicious."
@@ -93,7 +93,7 @@
     "pinyin": "bēizi",
     "english": "cup / glass",
     "arabic": "كوب",
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300",
+    "image": "./Hsk-1/images/9-beizi.png",
     "sentence_cn": "这是谁的杯子？",
     "sentence_py": "Zhè shì shéi de bēizi?",
     "sentence_en": "Whose cup is this?"
@@ -104,7 +104,7 @@
     "pinyin": "běn",
     "english": "m.w. for books",
     "arabic": "وحدة للكتب",
-    "image": "",
+     "image": "./Hsk-1/images/10-ben.png",
     "sentence_cn": "我买了一本书。",
     "sentence_py": "Wǒ mǎile yī běn shū.",
     "sentence_en": "I bought a book."
@@ -115,7 +115,7 @@
     "pinyin": "biān",
     "english": "side / edge",
     "arabic": "جانب",
-    "image": "https://images.unsplash.com/photo-1506450630321-0e9e4f507b57?w=300",
+    "image": "./Hsk-1/images/11-bian.png",
     "sentence_cn": "他在学校里边。",
     "sentence_py": "Tā zài xuéxiào lǐbiān.",
     "sentence_en": "He is inside the school."
@@ -126,7 +126,7 @@
     "pinyin": "bìng",
     "english": "illness / sick",
     "arabic": "مرض",
-    "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=300",
+   "image": "./Hsk-1/images/12-bing.png",
     "sentence_cn": "我不舒服，生病了。",
     "sentence_py": "Wǒ bù shūfu, shēngbìng le.",
     "sentence_en": "I don't feel well, I'm sick."
@@ -137,7 +137,7 @@
     "pinyin": "bù",
     "english": "not / no",
     "arabic": "لا",
-    "image": "",
+    "image": "./Hsk-1/images/13-bu.png",
     "sentence_cn": "我不去超市。",
     "sentence_py": "Wǒ bù qù chāoshì.",
     "sentence_en": "I am not going to the supermarket."
@@ -148,7 +148,7 @@
     "pinyin": "bú kèqi",
     "english": "you're welcome",
     "arabic": "على الرحب والسعة",
-    "image": "https://images.unsplash.com/photo-1516733958028-966805111c2e?w=300",
+    "image": "./Hsk-1/images/14-bukeqi.png",
     "sentence_cn": "谢谢！不客气。",
     "sentence_py": "Xièxie! Bú kèqi.",
     "sentence_en": "Thanks! You are welcome."
@@ -159,7 +159,7 @@
     "pinyin": "búyào",
     "english": "don't",
     "arabic": "لا تفعل",
-    "image": "",
+    "image": "./Hsk-1/images/15-buyao.png",
     "sentence_cn": "不要打电话。",
     "sentence_py": "Búyào dǎ diànhuà.",
     "sentence_en": "Don't make phone calls."
@@ -170,7 +170,7 @@
     "pinyin": "cài",
     "english": "dish / vegetable",
     "arabic": "طبق / خضار",
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=300",
+    "image": "./Hsk-1/images/16-cai.png",
     "sentence_cn": "妈妈做的菜很好吃。",
     "sentence_py": "Māma zuò de cài hěn hǎochī.",
     "sentence_en": "The dish mom cooked is delicious."
@@ -181,7 +181,7 @@
     "pinyin": "chá",
     "english": "tea",
     "arabic": "شاي",
-    "image": "https://images.unsplash.com/photo-1544787210-2213d84ad964?w=300",
+     "image": "./Hsk-1/images/17-cha.png",
     "sentence_cn": "请喝茶。",
     "sentence_py": "Qǐng hē chá.",
     "sentence_en": "Please drink some tea."
@@ -192,7 +192,7 @@
     "pinyin": "chàng",
     "english": "to sing",
     "arabic": "يغني",
-    "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=300",
+    "image": "./Hsk-1/images/18-chang.png",
     "sentence_cn": "她喜欢唱歌。",
     "sentence_py": "Tā xǐhuan chànggē.",
     "sentence_en": "She likes singing."
@@ -203,7 +203,7 @@
     "pinyin": "chāoshì",
     "english": "supermarket",
     "arabic": "سوبر ماركت",
-    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=300",
+    "image": "./Hsk-1/images/19-chaoshi.png",
     "sentence_cn": "超市里有很多人。",
     "sentence_py": "Chāoshì lǐ yǒu hěn duō rén.",
     "sentence_en": "There are many people in the supermarket."
@@ -214,7 +214,7 @@
     "pinyin": "chē",
     "english": "car / vehicle",
     "arabic": "سيارة",
-    "image": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=300",
+    "image": "./Hsk-1/images/20-che.png",
     "sentence_cn": "这是我的车。",
     "sentence_py": "Zhè shì wǒ de chē.",
     "sentence_en": "This is my car."
@@ -225,7 +225,7 @@
     "pinyin": "chī",
     "english": "to eat",
     "arabic": "يأكل",
-    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c170db06?w=300",
+    "image": "./Hsk-1/images/21-chi.png",
     "sentence_cn": "你吃什么？",
     "sentence_py": "Nǐ chī shénme?",
     "sentence_en": "What do you eat?"
@@ -236,7 +236,7 @@
     "pinyin": "chūzūchē",
     "english": "taxi",
     "arabic": "تاكسي",
-    "image": "https://images.unsplash.com/photo-1490604001847-b712b0c2f967?w=300",
+    "image": "./Hsk-1/images/22-chuzuche.png",
     "sentence_cn": "我坐出租车去学校。",
     "sentence_py": "Wǒ zuò chūzūchē qù xuéxiào.",
     "sentence_en": "I take a taxi to school."
@@ -247,7 +247,7 @@
     "pinyin": "chuān",
     "english": "to wear",
     "arabic": "يرتدي",
-    "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=300",
+    "image": "./Hsk-1/images/23-chuan.png",
     "sentence_cn": "今天穿什么？",
     "sentence_py": "Jīntiān chuān shénme?",
     "sentence_en": "What to wear today?"
@@ -258,7 +258,7 @@
     "pinyin": "dǎ diànhuà",
     "english": "to call",
     "arabic": "يتصل",
-    "image": "https://images.unsplash.com/photo-1520923642038-b4259ace9751?w=300",
+   "image": "./Hsk-1/images/24-dadianhua.png",
     "sentence_cn": "她在给爸爸打电话。",
     "sentence_py": "Tā zài gěi bàba dǎ diànhuà.",
     "sentence_en": "She is calling her dad."
@@ -269,7 +269,7 @@
     "pinyin": "dà",
     "english": "big",
     "arabic": "كبير",
-    "image": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?w=300",
+    "image": "./Hsk-1/images/25-da.png",
     "sentence_cn": "这个苹果很大。",
     "sentence_py": "Zhège píngguǒ hěn dà.",
     "sentence_en": "This apple is very big."
@@ -280,7 +280,7 @@
     "pinyin": "dàjiā",
     "english": "everyone",
     "arabic": "الجميع",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=300",
+    "image": "./Hsk-1/images/26-dajia.png",
     "sentence_cn": "大家好！",
     "sentence_py": "Dàjiā hǎo!",
     "sentence_en": "Hello everyone!"
@@ -291,7 +291,7 @@
     "pinyin": "dàxué",
     "english": "university",
     "arabic": "جامعة",
-    "image": "https://images.unsplash.com/photo-1523050853064-85049f3ef0a1?w=300",
+    "image": "./Hsk-1/images/27-daxue.png",
     "sentence_cn": "他在大学学习汉语。",
     "sentence_py": "Tā zài dàxué xuéxí Hànyǔ.",
     "sentence_en": "He studies Chinese at the university."
@@ -302,7 +302,7 @@
     "pinyin": "dàxuésheng",
     "english": "college student",
     "arabic": "طالب جامعي",
-    "image": "https://images.unsplash.com/photo-1541339907198-e08759dfc3ef?w=300",
+   "image": "./Hsk-1/images/28-daxuesheng.png",
     "sentence_cn": "我哥哥是大学生。",
     "sentence_py": "Wǒ gēge shì dàxuésheng.",
     "sentence_en": "My older brother is a university student."
@@ -313,7 +313,7 @@
     "pinyin": "dào",
     "english": "to arrive",
     "arabic": "يصل",
-    "image": "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=300",
+    "image": "./Hsk-1/images/29-dao.png",
     "sentence_cn": "我到家了。",
     "sentence_py": "Wǒ dào jiā le.",
     "sentence_en": "I arrived home."
@@ -324,7 +324,7 @@
     "pinyin": "de",
     "english": "possessive particle",
     "arabic": "أداة ملكية",
-    "image": "",
+    "image": "./Hsk-1/images/30-de.png",
     "sentence_cn": "这是我的书。",
     "sentence_py": "Zhè shì wǒ de shū.",
     "sentence_en": "This is my book."
