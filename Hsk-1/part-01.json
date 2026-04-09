@@ -6,9 +6,9 @@
     "english": "to love",
     "arabic": "حب / يحب",
     "image": "./Hsk-1/images/1-ai.png",
-    "sentence_cn": "我爱我爸爸。",
-    "sentence_py": "Wǒ ài wǒ bàba.",
-    "sentence_en": "I love my dad."
+    "sentence_cn": "我爱你。",
+    "sentence_py": "Wǒ ài nǐ.",
+    "sentence_en": "I love you."
   },
   {
     "id": 2,
@@ -28,9 +28,9 @@
     "english": "dad / father",
     "arabic": "أب / بابا",
      "image": "./Hsk-1/images/3-baba.png",
-    "sentence_cn": "我爸爸是老师。",
-    "sentence_py": "Wǒ bàba shì lǎoshī.",
-    "sentence_en": "My dad is a teacher."
+    "sentence_cn": "我爱我的爸爸。",
+    "sentence_py": "Wǒ ài wǒ de bàba.",
+    "sentence_en": "I love my dad."
   },
   {
     "id": 4,
@@ -39,9 +39,9 @@
     "english": "particle (suggestion)",
     "arabic": "أداة اقتراح",
      "image": "./Hsk-1/images/4-ba.png",
-    "sentence_cn": "我们吃菜吧。",
-    "sentence_py": "Wǒmen chī cài ba.",
-    "sentence_en": "Let's eat vegetables."
+    "sentence_cn": "我喜欢吃菜。",
+    "sentence_py": "Wǒ xǐhuan chī cài.",
+    "sentence_en": "I like eating vegetables."
   },
   {
     "id": 5,
@@ -61,9 +61,9 @@
     "english": "hundred",
     "arabic": "مئة",
     "image": "./Hsk-1/images/6-bai.png",
-    "sentence_cn": "这有一百块钱。",
-    "sentence_py": "Zhè yǒu yībǎi kuài qián.",
-    "sentence_en": "There is one hundred yuan here."
+    "sentence_cn": "我有一百块钱。",
+    "sentence_py": "Wǒ yǒu yìbǎi kuài qián.",
+    "sentence_en": "I have one hundred yuan."
   },
   {
     "id": 7,
@@ -116,9 +116,9 @@
     "english": "side / edge",
     "arabic": "جانب",
     "image": "./Hsk-1/images/11-bian.png",
-    "sentence_cn": "他在学校里边。",
-    "sentence_py": "Tā zài xuéxiào lǐbiān.",
-    "sentence_en": "He is inside the school."
+    "sentence_cn": "超市在学校旁边。",
+    "sentence_py": "Chāoshì zài xuéxiào pángbiān.",
+    "sentence_en": "The supermarket is beside the school."
   },
   {
     "id": 12,
@@ -127,9 +127,9 @@
     "english": "illness / sick",
     "arabic": "مرض",
    "image": "./Hsk-1/images/12-bing.png",
-    "sentence_cn": "我不舒服，生病了。",
-    "sentence_py": "Wǒ bù shūfu, shēngbìng le.",
-    "sentence_en": "I don't feel well, I'm sick."
+    "sentence_cn": "我生病了。",
+    "sentence_py": "Wǒ shēngbìng le.",
+    "sentence_en": "I'm sick."
   },
   {
     "id": 13,
@@ -139,7 +139,7 @@
     "arabic": "لا",
     "image": "./Hsk-1/images/13-bu.png",
     "sentence_cn": "我不去超市。",
-    "sentence_py": "Wǒ bù qù chāoshì.",
+    "sentence_py": "Wǒ bú qù chāoshì.",
     "sentence_en": "I am not going to the supermarket."
   },
   {
@@ -259,9 +259,9 @@
     "english": "to call",
     "arabic": "يتصل",
    "image": "./Hsk-1/images/24-dadianhua.png",
-    "sentence_cn": "她在给爸爸打电话。",
+    "sentence_cn": "他在给爸爸打电话。",
     "sentence_py": "Tā zài gěi bàba dǎ diànhuà.",
-    "sentence_en": "She is calling her dad."
+    "sentence_en": "He is calling his dad."
   },
   {
     "id": 25,
@@ -300,7 +300,7 @@
     "id": 28,
     "word": "大学生",
     "pinyin": "dàxuésheng",
-    "english": "college student",
+    "english": "university student",
     "arabic": "طالب جامعي",
    "image": "./Hsk-1/images/28-daxuesheng.png",
     "sentence_cn": "我哥哥是大学生。",
