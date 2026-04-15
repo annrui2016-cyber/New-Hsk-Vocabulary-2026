@@ -3,360 +3,396 @@
     "id": 13,
     "word": "不",
     "pinyin": "bù",
+    "english": "not / no",
     "arabic": "لا / ليس",
     "image": "./Hsk-1/images/13-bu.png",
-    "sentence": "我不去学校。",
-    "sentencePinyin": "Wǒ bú qù xuéxiào.",
-    "sentenceEnglish": "I am not going to school."
+    "sentence_cn": "我不去学校。",
+    "sentence_py": "Wǒ bú qù xuéxiào.",
+    "sentence_en": "I am not going to school."
   },
   {
     "id": 28,
     "word": "大学生",
     "pinyin": "dàxuésheng",
+    "english": "university student",
     "arabic": "طالب جامعي",
     "image": "./Hsk-1/images/28-daxuesheng.png",
-    "sentence": "他是大学生。",
-    "sentencePinyin": "Tā shì dàxuésheng.",
-    "sentenceEnglish": "He is a university student."
+    "sentence_cn": "他是大学生。",
+    "sentence_py": "Tā shì dàxuésheng.",
+    "sentence_en": "He is a university student."
   },
   {
     "id": 45,
     "word": "对不起",
     "pinyin": "duìbuqǐ",
+    "english": "I'm sorry",
     "arabic": "آسف",
     "image": "./Hsk-1/images/45-duibuqi.png",
-    "sentence": "对不起，我来晚了。",
-    "sentencePinyin": "Duìbuqǐ, wǒ lái wǎn le.",
-    "sentenceEnglish": "I'm sorry, I'm late."
+    "sentence_cn": "对不起，我来晚了。",
+    "sentence_py": "Duìbuqǐ, wǒ lái wǎn le.",
+    "sentence_en": "I'm sorry, I'm late."
   },
   {
     "id": 49,
     "word": "二",
     "pinyin": "èr",
+    "english": "two",
     "arabic": "اثنان",
     "image": "./Hsk-1/images/49-er.png",
-    "sentence": "我有两个弟弟。",
-    "sentencePinyin": "Wǒ yǒu liǎng gè dìdi.",
-    "sentenceEnglish": "I have two younger brothers."
+    "sentence_cn": "我有两个弟弟。",
+    "sentence_py": "Wǒ yǒu liǎng gè dìdi.",
+    "sentence_en": "I have two younger brothers."
   },
   {
     "id": 76,
     "word": "号",
     "pinyin": "hào",
+    "english": "number / date",
     "arabic": "رقم / تاريخ",
     "image": "./Hsk-1/images/76-hao.png",
-    "sentence": "今天是五号。",
-    "sentencePinyin": "Jīntiān shì wǔ hào.",
-    "sentenceEnglish": "Today is the 5th."
+    "sentence_cn": "今天是五号。",
+    "sentence_py": "Jīntiān shì wǔ hào.",
+    "sentence_en": "Today is the 5th."
   },
   {
     "id": 91,
     "word": "叫",
     "pinyin": "jiào",
+    "english": "to be called / to shout",
     "arabic": "يُدعى / يُنادي",
     "image": "./Hsk-1/images/91-jiao.png",
-    "sentence": "我叫阿里。",
-    "sentencePinyin": "Wǒ jiào Ālǐ.",
-    "sentenceEnglish": "My name is Ali."
+    "sentence_cn": "我叫阿里。",
+    "sentence_py": "Wǒ jiào Ālǐ.",
+    "sentence_en": "My name is Ali."
   },
   {
     "id": 107,
     "word": "老师",
     "pinyin": "lǎoshī",
+    "english": "teacher",
     "arabic": "معلم",
     "image": "./Hsk-1/images/107-laoshi.png",
-    "sentence": "她是我的老师。",
-    "sentencePinyin": "Tā shì wǒ de lǎoshī.",
-    "sentenceEnglish": "She is my teacher."
+    "sentence_cn": "她是我的老师。",
+    "sentence_py": "Tā shì wǒ de lǎoshī.",
+    "sentence_en": "She is my teacher."
   },
   {
     "id": 115,
     "word": "吗",
     "pinyin": "ma",
+    "english": "question particle",
     "arabic": "هل (للسؤال)",
     "image": "./Hsk-1/images/115-ma.png",
-    "sentence": "你是老师吗？",
-    "sentencePinyin": "Nǐ shì lǎoshī ma?",
-    "sentenceEnglish": "Are you a teacher?"
+    "sentence_cn": "你是老师吗？",
+    "sentence_py": "Nǐ shì lǎoshī ma?",
+    "sentence_en": "Are you a teacher?"
   },
   {
     "id": 120,
     "word": "没关系",
     "pinyin": "méi guānxi",
+    "english": "it doesn't matter",
     "arabic": "لا بأس / لا مشكلة",
     "image": "./Hsk-1/images/120-meiguanxi.png",
-    "sentence": "没关系，再见。",
-    "sentencePinyin": "Méi guānxi, zàijiàn.",
-    "sentenceEnglish": "It's okay, goodbye."
+    "sentence_cn": "没关系，再见。",
+    "sentence_py": "Méi guānxi, zàijiàn.",
+    "sentence_en": "It's okay, goodbye."
   },
   {
     "id": 124,
     "word": "们",
     "pinyin": "men",
+    "english": "plural suffix",
     "arabic": "جمع (للعاقل)",
     "image": "./Hsk-1/images/124-men.png",
-    "sentence": "我们是学生。",
-    "sentencePinyin": "Wǒmen shì xuésheng.",
-    "sentenceEnglish": "We are students."
+    "sentence_cn": "我们是学生。",
+    "sentence_py": "Wǒmen shì xuésheng.",
+    "sentence_en": "We are students."
   },
   {
     "id": 130,
     "word": "名字",
     "pinyin": "míngzi",
+    "english": "name",
     "arabic": "اسم",
     "image": "./Hsk-1/images/130-mingzi.png",
-    "sentence": "你叫什么名字？",
-    "sentencePinyin": "Nǐ jiào shénme míngzi?",
-    "sentenceEnglish": "What is your name?"
+    "sentence_cn": "你叫什么名字？",
+    "sentence_py": "Nǐ jiào shénme míngzi?",
+    "sentence_en": "What is your name?"
   },
   {
     "id": 136,
     "word": "那",
     "pinyin": "nà",
+    "english": "that",
     "arabic": "ذلك",
     "image": "./Hsk-1/images/136-na.png",
-    "sentence": "那是我的书。",
-    "sentencePinyin": "Nà shì wǒ de shū.",
-    "sentenceEnglish": "That is my book."
+    "sentence_cn": "那是我的书。",
+    "sentence_py": "Nà shì wǒ de shū.",
+    "sentence_en": "That is my book."
   },
   {
     "id": 146,
     "word": "你",
     "pinyin": "nǐ",
+    "english": "you",
     "arabic": "أنت",
     "image": "./Hsk-1/images/146-ni.png",
-    "sentence": "你是老师吗？",
-    "sentencePinyin": "Nǐ shì lǎoshī ma?",
-    "sentenceEnglish": "Are you a teacher?"
+    "sentence_cn": "你是老师吗？",
+    "sentence_py": "Nǐ shì lǎoshī ma?",
+    "sentence_en": "Are you a teacher?"
   },
   {
     "id": 147,
     "word": "你好",
     "pinyin": "nǐhǎo",
+    "english": "hello",
     "arabic": "مرحباً",
     "image": "./Hsk-1/images/147-nihao.png",
-    "sentence": "你好，老师。",
-    "sentencePinyin": "Nǐhǎo, lǎoshī.",
-    "sentenceEnglish": "Hello, teacher."
+    "sentence_cn": "你好，老师。",
+    "sentence_py": "Nǐhǎo, lǎoshī.",
+    "sentence_en": "Hello, teacher."
   },
   {
     "id": 150,
     "word": "您",
     "pinyin": "nín",
+    "english": "you (polite)",
     "arabic": "حضرتك (للإحترام)",
     "image": "./Hsk-1/images/150-nin.png",
-    "sentence": "老师，您好。",
-    "sentencePinyin": "Lǎoshī, nín hǎo.",
-    "sentenceEnglish": "Hello, teacher (politely)."
+    "sentence_cn": "老师，您好。",
+    "sentence_py": "Lǎoshī, nín hǎo.",
+    "sentence_en": "Hello, teacher (politely)."
   },
   {
     "id": 170,
     "word": "人",
     "pinyin": "rén",
+    "english": "person",
     "arabic": "شخص / إنسان",
     "image": "./Hsk-1/images/170-ren.png",
-    "sentence": "他是机器人。",
-    "sentencePinyin": "Tā shì jīqì rén.",
-    "sentenceEnglish": "He is a robot."
+    "sentence_cn": "他是机器人。",
+    "sentence_py": "Tā shì jīqì rén.",
+    "sentence_en": "He is a robot."
   },
   {
     "id": 173,
     "word": "三",
     "pinyin": "sān",
+    "english": "three",
     "arabic": "ثلاثة",
     "image": "./Hsk-1/images/173-san.png",
-    "sentence": "我有三个老师。",
-    "sentencePinyin": "Zhè shì sān.",
-    "sentenceEnglish": "This is three."
+    "sentence_cn": "我有三个老师。",
+    "sentence_py": "Wǒ yǒu sān gè lǎoshī.",
+    "sentence_en": "I have three teachers."
   },
   {
     "id": 181,
     "word": "谁",
     "pinyin": "shéi",
+    "english": "who",
     "arabic": "من؟",
     "image": "./Hsk-1/images/181-shei.png",
-    "sentence": "他是谁？",
-    "sentencePinyin": "Tā shì shéi?",
-    "sentenceEnglish": "Who is he?"
+    "sentence_cn": "他是谁？",
+    "sentence_py": "Tā shì shéi?",
+    "sentence_en": "Who is he?"
   },
   {
     "id": 182,
     "word": "什么",
     "pinyin": "shénme",
+    "english": "what",
     "arabic": "ماذا؟",
     "image": "./Hsk-1/images/182-shenme.png",
-    "sentence": "这是什么？",
-    "sentencePinyin": "Zhè shì shénme?",
-    "sentenceEnglish": "What is this?"
+    "sentence_cn": "这是什么？",
+    "sentence_py": "Zhè shì shénme?",
+    "sentence_en": "What is this?"
   },
   {
     "id": 188,
     "word": "是",
     "pinyin": "shì",
+    "english": "to be",
     "arabic": "يكون",
     "image": "./Hsk-1/images/188-shi.png",
-    "sentence": "我是学生。",
-    "sentencePinyin": "Wǒ shì xuésheng.",
-    "sentenceEnglish": "I am a student."
+    "sentence_cn": "我是学生。",
+    "sentence_py": "Wǒ shì xuésheng.",
+    "sentence_en": "I am a student."
   },
   {
     "id": 198,
     "word": "四",
     "pinyin": "sì",
+    "english": "four",
     "arabic": "أربعة",
     "image": "./Hsk-1/images/198-si.png",
-    "sentence": "这是四。",
-    "sentencePinyin": "Zhè shì sì.",
-    "sentenceEnglish": "This is four."
+    "sentence_cn": "这是四。",
+    "sentence_py": "Zhè shì sì.",
+    "sentence_en": "This is four."
   },
   {
     "id": 200,
     "word": "他",
     "pinyin": "tā",
+    "english": "he",
     "arabic": "هو",
     "image": "./Hsk-1/images/200-ta.png",
-    "sentence": "他不是学生。",
-    "sentencePinyin": "Tā bú shì xuésheng.",
-    "sentenceEnglish": "He is not a student."
+    "sentence_cn": "他不是学生。",
+    "sentence_py": "Tā bú shì xuésheng.",
+    "sentence_en": "He is not a student."
   },
   {
     "id": 202,
     "word": "她",
     "pinyin": "tā",
+    "english": "she",
     "arabic": "هي",
     "image": "./Hsk-1/images/202-ta.png",
-    "sentence": "她是大学生。",
-    "sentencePinyin": "Tā shì dàxuésheng.",
-    "sentenceEnglish": "She is a university student."
+    "sentence_cn": "她是大学生。",
+    "sentence_py": "Tā shì dàxuésheng.",
+    "sentence_en": "She is a university student."
   },
   {
     "id": 203,
     "word": "他们",
     "pinyin": "tāmen",
+    "english": "they (male)",
     "arabic": "هم",
     "image": "./Hsk-1/images/203-tamen.png",
-    "sentence": "他们不是学生。",
-    "sentencePinyin": "Tāmen bú shì xuésheng.",
-    "sentenceEnglish": "They are not students."
+    "sentence_cn": "他们不是学生。",
+    "sentence_py": "Tāmen bú shì xuésheng.",
+    "sentence_en": "They are not students."
   },
   {
     "id": 205,
     "word": "她们",
     "pinyin": "tāmen",
+    "english": "they (female)",
     "arabic": "هن",
     "image": "./Hsk-1/images/205-tamen.png",
-    "sentence": "她们是学生。",
-    "sentencePinyin": "Tāmen shì xuésheng.",
-    "sentenceEnglish": "They (female) are students."
+    "sentence_cn": "她们是学生。",
+    "sentence_py": "Tāmen shì xuésheng.",
+    "sentence_en": "They (female) are students."
   },
   {
     "id": 221,
     "word": "我",
     "pinyin": "wǒ",
+    "english": "I / me",
     "arabic": "أنا",
     "image": "./Hsk-1/images/221-wo.png",
-    "sentence": "我是莉莉。",
-    "sentencePinyin": "Wǒ shì Lìli.",
-    "sentenceEnglish": "I am Lily."
+    "sentence_cn": "我是莉莉。",
+    "sentence_py": "Wǒ shì Lìli.",
+    "sentence_en": "I am Lily."
   },
   {
     "id": 222,
     "word": "我们",
     "pinyin": "wǒmen",
+    "english": "we",
     "arabic": "نحن",
     "image": "./Hsk-1/images/222-women.png",
-    "sentence": "我们是好朋友。",
-    "sentencePinyin": "Wǒmen shì hǎo péngyou.",
-    "sentenceEnglish": "We are good friends."
+    "sentence_cn": "我们是好朋友。",
+    "sentence_py": "Wǒmen shì hǎo péngyou.",
+    "sentence_en": "We are good friends."
   },
   {
     "id": 223,
     "word": "五",
     "pinyin": "wǔ",
+    "english": "five",
     "arabic": "خمسة",
     "image": "./Hsk-1/images/223-wu.png",
-    "sentence": "我有五个苹果。",
-    "sentencePinyin": "Wǒ yǒu wǔ gè píngguǒ.",
-    "sentenceEnglish": "I have five apples."
+    "sentence_cn": "我有五个苹果。",
+    "sentence_py": "Wǒ yǒu wǔ gè píngguǒ.",
+    "sentence_en": "I have five apples."
   },
   {
     "id": 241,
     "word": "谢谢",
     "pinyin": "xièxie",
+    "english": "thanks",
     "arabic": "شكراً",
     "image": "./Hsk-1/images/241-xiexie.png",
-    "sentence": "谢谢老师。",
-    "sentencePinyin": "Xièxie lǎoshī.",
-    "sentenceEnglish": "Thank you, teacher."
+    "sentence_cn": "谢谢老师。",
+    "sentence_py": "Xièxie lǎoshī.",
+    "sentence_en": "Thank you, teacher."
   },
   {
     "id": 242,
     "word": "新",
     "pinyin": "xīn",
+    "english": "new",
     "arabic": "جديد",
     "image": "./Hsk-1/images/242-xin.png",
-    "sentence": "你是新学生吗？",
-    "sentencePinyin": "Nǐ shì xīn xuésheng ma?",
-    "sentenceEnglish": "Are you a new student?"
+    "sentence_cn": "你是新学生吗？",
+    "sentence_py": "Nǐ shì xīn xuésheng ma?",
+    "sentence_en": "Are you a new student?"
   },
   {
     "id": 248,
     "word": "学生",
     "pinyin": "xuésheng",
+    "english": "student",
     "arabic": "طالب",
     "image": "./Hsk-1/images/248-xuesheng.png",
-    "sentence": "他是学生。",
-    "sentencePinyin": "Tā shì xuésheng.",
-    "sentenceEnglish": "He is a student."
+    "sentence_cn": "他是学生。",
+    "sentence_py": "Tā shì xuésheng.",
+    "sentence_en": "He is a student."
   },
   {
     "id": 238,
     "word": "小学生",
     "pinyin": "xiǎoxuésheng",
+    "english": "primary school student",
     "arabic": "طالب ابتدائي",
     "image": "./Hsk-1/images/238-xiaoxuesheng.png",
-    "sentence": "我弟弟是小学生。",
-    "sentencePinyin": "Dìdi shì xiǎoxuésheng.",
-    "sentenceEnglish": "My younger brother is a primary school student."
+    "sentence_cn": "我弟弟是小学生。",
+    "sentence_py": "Dìdi shì xiǎoxuésheng.",
+    "sentence_en": "My younger brother is a primary school student."
   },
   {
     "id": 254,
     "word": "一",
     "pinyin": "yī",
+    "english": "one",
     "arabic": "واحد",
     "image": "./Hsk-1/images/254-yi.png",
-    "sentence": "我有一个弟弟。",
-    "sentencePinyin": "Wǒ yǒu yí gè dìdi.",
-    "sentenceEnglish": "I have a younger brother."
+    "sentence_cn": "我有一个弟弟。",
+    "sentence_py": "Wǒ yǒu yí gè dìdi.",
+    "sentence_en": "I have a younger brother."
   },
   {
     "id": 256,
     "word": "医生",
     "pinyin": "yīshēng",
+    "english": "doctor",
     "arabic": "طبيب",
     "image": "./Hsk-1/images/256-yisheng.png",
-    "sentence": "他是医生。",
-    "sentencePinyin": "Tā shì yīshēng.",
-    "sentenceEnglish": "He is a doctor."
+    "sentence_cn": "他是医生。",
+    "sentence_py": "Tā shì yīshēng.",
+    "sentence_en": "He is a doctor."
   },
   {
     "id": 272,
     "word": "再见",
     "pinyin": "zàijiàn",
+    "english": "goodbye",
     "arabic": "إلى اللقاء",
     "image": "./Hsk-1/images/272-zaijian.png",
-    "sentence": "老师，再见。",
-    "sentencePinyin": "Lǎoshī, zàijiàn.",
-    "sentenceEnglish": "Goodbye, teacher."
+    "sentence_cn": "老师，再见。",
+    "sentence_py": "Lǎoshī, zàijiàn.",
+    "sentence_en": "Goodbye, teacher."
   },
   {
     "id": 293,
     "word": "中学生",
     "pinyin": "zhōngxuésheng",
+    "english": "middle school student",
     "arabic": "طالب إعدادي/ثانوي",
     "image": "./Hsk-1/images/293-zhongxuesheng.png",
-    "sentence": "她是中学生。",
-    "sentencePinyin": "Tā shì zhōngxuésheng.",
-    "sentenceEnglish": "She is a middle school student."
+    "sentence_cn": "她是中学生。",
+    "sentence_py": "Tā shì zhōngxuésheng.",
+    "sentence_en": "She is a middle school student."
   }
 ]
