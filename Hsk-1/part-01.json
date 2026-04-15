@@ -28,9 +28,9 @@
     "english": "I'm sorry",
     "arabic": "آسف",
     "image": "./Hsk-1/images/45-duibuqi.png",
-    "sentence_cn": "对不起，我来晚了。",
-    "sentence_py": "Duìbuqǐ, wǒ lái wǎn le.",
-    "sentence_en": "I'm sorry, I'm late."
+    "sentence_cn": "对不起。",
+    "sentence_py": "Duìbuqǐ.",
+    "sentence_en": "I'm sorry."
   },
   {
     "id": 49,
@@ -39,9 +39,9 @@
     "english": "two",
     "arabic": "اثنان",
     "image": "./Hsk-1/images/49-er.png",
-    "sentence_cn": "我有两个弟弟。",
-    "sentence_py": "Wǒ yǒu liǎng gè dìdi.",
-    "sentence_en": "I have two younger brothers."
+    "sentence_cn": "今天是二月二号。",
+    "sentence_py": "Jīntiān shì èr yuè èr hào.",
+    "sentence_en": "Today is February 2."
   },
   {
     "id": 76,
@@ -50,9 +50,9 @@
     "english": "number / date",
     "arabic": "رقم / تاريخ",
     "image": "./Hsk-1/images/76-hao.png",
-    "sentence_cn": "今天是五号。",
-    "sentence_py": "Jīntiān shì wǔ hào.",
-    "sentence_en": "Today is the 5th."
+    "sentence_cn": "今天是五月五号。",
+    "sentence_py": "Jīntiān shì wǔ yuè wǔ hào.",
+    "sentence_en": "Today is May 5."
   },
   {
     "id": 91,
@@ -72,9 +72,9 @@
     "english": "teacher",
     "arabic": "معلم",
     "image": "./Hsk-1/images/107-laoshi.png",
-    "sentence_cn": "她是我的老师。",
+    "sentence_cn": "他是我的老师。",
     "sentence_py": "Tā shì wǒ de lǎoshī.",
-    "sentence_en": "She is my teacher."
+    "sentence_en": "He is my teacher."
   },
   {
     "id": 115,
@@ -94,9 +94,9 @@
     "english": "it doesn't matter",
     "arabic": "لا بأس / لا مشكلة",
     "image": "./Hsk-1/images/120-meiguanxi.png",
-    "sentence_cn": "没关系，再见。",
-    "sentence_py": "Méi guānxi, zàijiàn.",
-    "sentence_en": "It's okay, goodbye."
+    "sentence_cn": "没关系。",
+    "sentence_py": "Méi guānxi.",
+    "sentence_en": "It's okay."
   },
   {
     "id": 124,
@@ -149,9 +149,9 @@
     "english": "hello",
     "arabic": "مرحباً",
     "image": "./Hsk-1/images/147-nihao.png",
-    "sentence_cn": "你好，老师。",
-    "sentence_py": "Nǐhǎo, lǎoshī.",
-    "sentence_en": "Hello, teacher."
+    "sentence_cn": "你好，马克。",
+    "sentence_py": "Nǐhǎo, mǎkè.",
+    "sentence_en": "Hello, Mark."
   },
   {
     "id": 150,
@@ -182,9 +182,9 @@
     "english": "three",
     "arabic": "ثلاثة",
     "image": "./Hsk-1/images/173-san.png",
-    "sentence_cn": "我有三个老师。",
-    "sentence_py": "Wǒ yǒu sān gè lǎoshī.",
-    "sentence_en": "I have three teachers."
+    "sentence_cn": "今天是三月三号。",
+    "sentence_py": "Jīntiān shì sān yuè sān hào.",
+    "sentence_en": "Today is March 3."
   },
   {
     "id": 181,
@@ -226,9 +226,9 @@
     "english": "four",
     "arabic": "أربعة",
     "image": "./Hsk-1/images/198-si.png",
-    "sentence_cn": "这是四。",
-    "sentence_py": "Zhè shì sì.",
-    "sentence_en": "This is four."
+    "sentence_cn": "今天是四月四号",
+    "sentence_py": "Jīntiān shì sì yuè sì hào.",
+    "sentence_en": "This is April 4."
   },
   {
     "id": 200,
@@ -281,9 +281,9 @@
     "english": "I / me",
     "arabic": "أنا",
     "image": "./Hsk-1/images/221-wo.png",
-    "sentence_cn": "我是莉莉。",
-    "sentence_py": "Wǒ shì Lìli.",
-    "sentence_en": "I am Lily."
+    "sentence_cn": "我是设计师。",
+    "sentence_py": "Wǒ shì shèjìshī.",
+    "sentence_en": "I am a designer."
   },
   {
     "id": 222,
@@ -303,9 +303,9 @@
     "english": "five",
     "arabic": "خمسة",
     "image": "./Hsk-1/images/223-wu.png",
-    "sentence_cn": "我有五个苹果。",
-    "sentence_py": "Wǒ yǒu wǔ gè píngguǒ.",
-    "sentence_en": "I have five apples."
+    "sentence_cn": "今天五月五号。",
+    "sentence_py": "Jīntiān shì wǔ yuè wǔ hào.",
+    "sentence_en": "Today is May 5."
   },
   {
     "id": 241,
@@ -358,9 +358,9 @@
     "english": "one",
     "arabic": "واحد",
     "image": "./Hsk-1/images/254-yi.png",
-    "sentence_cn": "我有一个弟弟。",
-    "sentence_py": "Wǒ yǒu yí gè dìdi.",
-    "sentence_en": "I have a younger brother."
+    "sentence_cn": "今天一月一号。",
+    "sentence_py": "Jīntiān shì yī yuè yī hào.",
+    "sentence_en": "Today is January 1."
   },
   {
     "id": 256,
@@ -391,8 +391,8 @@
     "english": "middle school student",
     "arabic": "طالب إعدادي/ثانوي",
     "image": "./Hsk-1/images/293-zhongxuesheng.png",
-    "sentence_cn": "她是中学生。",
+    "sentence_cn": "他是中学生。",
     "sentence_py": "Tā shì zhōngxuésheng.",
-    "sentence_en": "She is a middle school student."
+    "sentence_en": "He is a middle school student."
   }
 ]
