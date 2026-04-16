@@ -60,16 +60,15 @@
             
             data.forEach((word, index) => {
                 const card = document.createElement('div');
-                card.className = 'bg-white rounded-2xl shadow-sm border border-slate-100 p-5 card-enter';
+                card.className = 'bg-white rounded-2xl shadow-sm border border-slate-100 p-5 card-enter flex flex-col';
                 card.style.animationDelay = `${index * 0.05}s`;
 
-                // --- 这里是修改后的图片显示逻辑 ---
+                // --- 图片显示逻辑 ---
                 const imageHtml = word.image ? 
                     `<img src="${word.image}" class="w-full h-64 object-cover rounded-xl mb-4 bg-slate-100 shadow-inner">` : 
-                    `<div class="w-full h-72 bg-slate-100 rounded-xl mb-4 flex items-center justify-center text-slate-300 font-bold italic text-sm">IMAGE</div>`;
-                // --------------------------------
+                    `<div class="w-full h-64 bg-slate-100 rounded-xl mb-4 flex items-center justify-center text-slate-300 font-bold italic text-sm">IMAGE</div>`;
 
-               card.innerHTML = `
+                card.innerHTML = `
                     ${imageHtml}
                     <div class="flex justify-between items-center mb-4">
                         <div onclick="speak('${word.word}')" class="group cursor-pointer clickable">
@@ -78,21 +77,23 @@
                         </div>
                         <span class="text-blue-500 font-semibold tracking-wide">${word.pinyin}</span>
                     </div>
+                    
                     <div class="space-y-1 mb-5 text-sm border-l-2 border-slate-100 pl-3">
-                        <p class="text-slate-600"><span class="text-slate-400 mr-1">EN:</span> ${word.english}</p>
+                        <p class="text-slate-600"><span class="text-slate-400 mr-1 font-mono text-xs">EN:</span> ${word.english}</p>
                         <p dir="rtl" class="text-right font-medium text-slate-700 leading-relaxed">${word.arabic}</p>
                     </div>
-                    
-                    <div class="mb-1">
-                        <span class="text-[10px] font-bold bg-slate-200 text-slate-500 px-2 py-0.5 rounded-full uppercase tracking-wider">例句 Example</span>
+
+                    <div class="mb-2 flex items-center">
+                        <div class="h-[1px] bg-slate-100 flex-grow"></div>
+                        <span class="mx-2 text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2 py-0.5 bg-slate-50 rounded border border-slate-100">例句 Example</span>
+                        <div class="h-[1px] bg-slate-100 flex-grow"></div>
                     </div>
                     
-                    <div onclick="speak('${word.sentence_cn}')" class="bg-blue-50/50 hover:bg-blue-50 p-4 rounded-xl cursor-pointer clickable transition-colors group">
+                    <div onclick="speak('${word.sentence_cn}')" class="bg-blue-50/50 hover:bg-blue-50 p-4 rounded-xl cursor-pointer clickable transition-colors group mt-auto">
                         <p class="font-bold text-slate-800 mb-1 group-hover:text-blue-700">${word.sentence_cn} <span class="text-blue-300">🔊</span></p>
                         <p class="text-blue-400 text-xs italic mb-1">${word.sentence_py}</p>
                         <p class="text-slate-500 text-xs">${word.sentence_en}</p>
                     </div>
-                `;
                 `;
                 container.appendChild(card);
             });
