@@ -26,36 +26,43 @@
         /* 勋章浮动动画效果 */
         @keyframes float {
             0% { transform: translateY(0px); }
-            50% { transform: translateY(-6px); }
+            50% { transform: translateY(-5px); }
             100% { transform: translateY(0px); }
         }
         .float-effect { animation: float 3s ease-in-out infinite; }
+
+        /* 毛玻璃背景平滑过渡 */
+        .glass-header {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
     </style>
 </head>
-<body class="bg-slate-50 min-h-screen p-4 md:p-8">
+<body class="bg-slate-50 min-h-screen">
     
-    <header class="text-center mb-12 relative">
-        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-blue-100/40 blur-3xl rounded-full -z-10"></div>
-        
-        <h1 class="text-3xl md:text-4xl font-black text-slate-800 tracking-tight mb-5">
+    <header class="sticky top-0 z-50 glass-header bg-slate-50/80 text-center py-4 mb-6 md:mb-10">
+        <h1 class="text-xl md:text-3xl font-black text-slate-800 tracking-tight mb-2">
             <span class="text-gradient">HSK 3.0 在线三语学习词典</span>
         </h1>
         
-        <div class="flex items-center justify-center gap-3">
-            <span class="h-[1px] w-6 md:w-12 bg-slate-200"></span>
+        <div class="flex items-center justify-center gap-2">
+            <span class="h-[1px] w-4 md:w-8 bg-slate-200"></span>
             
-            <div class="float-effect px-4 py-1.5 bg-blue-600 text-white text-[10px] md:text-xs font-bold rounded-full shadow-lg shadow-blue-200 uppercase tracking-widest flex items-center gap-2">
-                <span class="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span>
-                HSK1 · Unit 1 · Meeting Each Other
+            <div class="float-effect px-3 py-1 bg-blue-600 text-white text-[9px] md:text-xs font-bold rounded-full shadow-lg shadow-blue-200 uppercase tracking-widest flex items-center gap-1.5">
+                <span class="w-1 h-1 bg-white rounded-full animate-pulse"></span>
+                HSK1 · Unit 1 · Meeting
             </div>
             
-            <span class="h-[1px] w-6 md:w-12 bg-slate-200"></span>
+            <span class="h-[1px] w-4 md:w-8 bg-slate-200"></span>
         </div>
     </header>
 
-    <div id="status" class="text-center text-slate-400 py-10">正在加载词典数据...</div>
+    <main class="p-4 md:p-8 pt-0">
+        <div id="status" class="text-center text-slate-400 py-10 font-medium">正在加载词典数据...</div>
 
-    <div id="dictionary" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto"></div>
+        <div id="dictionary" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto"></div>
+    </main>
 
     <script>
         const paths = ['/Hsk-1/part-01.json', '/hsk-1/part-01.json', './Hsk-1/part-01.json'];
@@ -96,36 +103,35 @@
                 card.className = 'bg-white rounded-2xl shadow-sm border border-slate-100 p-5 card-enter flex flex-col';
                 card.style.animationDelay = `${index * 0.05}s`;
 
-                // 图片逻辑
                 const imageHtml = word.image ? 
                     `<img src="${word.image}" class="w-full h-64 object-cover rounded-xl mb-4 bg-slate-100 shadow-inner">` : 
                     `<div class="w-full h-64 bg-slate-100 rounded-xl mb-4 flex items-center justify-center text-slate-300 font-bold italic text-sm">IMAGE</div>`;
 
                 card.innerHTML = `
                     ${imageHtml}
-                    <div class="flex justify-between items-center mb-4">
+                    <div class="flex justify-between items-center mb-4 px-1">
                         <div onclick="speak('${word.word}')" class="group cursor-pointer clickable">
                             <span class="text-3xl font-bold text-slate-800 group-hover:text-blue-600 transition-colors">${word.word}</span>
                             <span class="text-xl ml-1 text-blue-300 group-hover:text-blue-500 text-sm">🔊</span>
                         </div>
-                        <span class="text-blue-500 font-semibold tracking-wide">${word.pinyin}</span>
+                        <span class="text-blue-500 font-semibold tracking-wide text-sm md:text-base">${word.pinyin}</span>
                     </div>
                     
                     <div class="space-y-1 mb-5 text-sm border-l-2 border-slate-100 pl-3">
-                        <p class="text-slate-600"><span class="text-slate-400 mr-1 font-mono text-xs">EN:</span> ${word.english}</p>
-                        <p dir="rtl" class="text-right font-medium text-slate-700 leading-relaxed">${word.arabic}</p>
+                        <p class="text-slate-600"><span class="text-slate-400 mr-1 font-mono text-[10px]">EN:</span> ${word.english}</p>
+                        <p dir="rtl" class="text-right font-medium text-slate-700 leading-relaxed text-base">${word.arabic}</p>
                     </div>
 
                     <div class="mb-2 flex items-center">
-                        <div class="h-[1px] bg-slate-100 flex-grow"></div>
+                        <div class="h-[1px] bg-slate-50 flex-grow"></div>
                         <span class="mx-2 text-[10px] font-bold text-slate-400 uppercase tracking-widest px-2 py-0.5 bg-slate-50 rounded border border-slate-100">例句 Example</span>
-                        <div class="h-[1px] bg-slate-100 flex-grow"></div>
+                        <div class="h-[1px] bg-slate-50 flex-grow"></div>
                     </div>
                     
-                    <div onclick="speak('${word.sentence_cn}')" class="bg-blue-50/50 hover:bg-blue-50 p-4 rounded-xl cursor-pointer clickable transition-colors group mt-auto">
-                        <p class="font-bold text-slate-800 mb-1 group-hover:text-blue-700">${word.sentence_cn} <span class="text-blue-300">🔊</span></p>
-                        <p class="text-blue-400 text-xs italic mb-1">${word.sentence_py}</p>
-                        <p class="text-slate-500 text-xs">${word.sentence_en}</p>
+                    <div onclick="speak('${word.sentence_cn}')" class="bg-blue-50/40 hover:bg-blue-50 p-4 rounded-xl cursor-pointer clickable transition-colors group mt-auto">
+                        <p class="font-bold text-slate-800 mb-1 group-hover:text-blue-700 leading-snug">${word.sentence_cn} <span class="text-blue-300">🔊</span></p>
+                        <p class="text-blue-400 text-[11px] italic mb-1 font-medium">${word.sentence_py}</p>
+                        <p class="text-slate-500 text-xs leading-relaxed">${word.sentence_en}</p>
                     </div>
                 `;
                 container.appendChild(card);
