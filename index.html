@@ -12,12 +12,31 @@
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
+        /* 额外的文字渐变效果 */
+        .text-gradient {
+            background: linear-gradient(to right, #1e293b, #2563eb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     </style>
 </head>
 <body class="bg-slate-50 min-h-screen p-4 md:p-8">
-    <header class="text-center mb-8">
-        <h1 class="text-2xl font-extrabold text-slate-800">HSK3.0 在线三语学习词典</h1>
-        <p class="text-blue-600 font-medium mt-2">HSK1-Unit1 Meeting Each Other</p>
+    
+    <header class="text-center mb-12 relative">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-blue-100/40 blur-3xl rounded-full -z-10"></div>
+        
+        <h1 class="text-3xl md:text-4xl font-black text-slate-800 tracking-tight mb-4">
+            <span class="text-gradient">HSK 3.0 在线三语学习词典</span>
+        </h1>
+        
+        <div class="flex items-center justify-center gap-3">
+            <span class="h-[1px] w-6 md:w-12 bg-slate-200"></span>
+            <div class="px-4 py-1 bg-blue-600 text-white text-[10px] md:text-xs font-bold rounded-full shadow-lg shadow-blue-100 uppercase tracking-widest flex items-center gap-2">
+                <span class="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span>
+                HSK1 · Unit 1 · Meeting Each Other
+            </div>
+            <span class="h-[1px] w-6 md:w-12 bg-slate-200"></span>
+        </div>
     </header>
 
     <div id="status" class="text-center text-slate-400 py-10">正在加载词典数据...</div>
