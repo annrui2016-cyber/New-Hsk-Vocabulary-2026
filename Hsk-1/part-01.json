@@ -6,9 +6,9 @@
     "english": "not / no",
     "arabic": "لا / ليس",
     "image": "./Hsk-1/images/13-bu.png",
-    "sentence_cn": "我不去学校。",
-    "sentence_py": "Wǒ bú qù xuéxiào.",
-    "sentence_en": "I am not going to school."
+    "sentence_cn": "我不是学生。",
+    "sentence_py": "Wǒ bú shì xuéshēng.",
+    "sentence_en": "I am not a student."
   },
   {
     "id": 28,
@@ -18,7 +18,7 @@
     "arabic": "طالب جامعي",
     "image": "./Hsk-1/images/28-daxuesheng.png",
     "sentence_cn": "他是大学生。",
-    "sentence_py": "Tā shì dàxuésheng.",
+    "sentence_py": "Tā shì dàxuéshēng.",
     "sentence_en": "He is a university student."
   },
   {
@@ -61,9 +61,9 @@
     "english": "to be called / to shout",
     "arabic": "يُدعى / يُنادي",
     "image": "./Hsk-1/images/91-jiao.png",
-    "sentence_cn": "我叫阿里。",
-    "sentence_py": "Wǒ jiào Ālǐ.",
-    "sentence_en": "My name is Ali."
+    "sentence_cn": "我叫马克。",
+    "sentence_py": "Wǒ jiào Mǎkè.",
+    "sentence_en": "My name is Mark."
   },
   {
     "id": 107,
@@ -106,7 +106,7 @@
     "arabic": "جمع (للعاقل)",
     "image": "./Hsk-1/images/124-men.png",
     "sentence_cn": "我们是学生。",
-    "sentence_py": "Wǒmen shì xuésheng.",
+    "sentence_py": "Wǒmen shì xuéshēng.",
     "sentence_en": "We are students."
   },
   {
@@ -128,8 +128,8 @@
     "arabic": "ذلك",
     "image": "./Hsk-1/images/136-na.png",
     "sentence_cn": "那是我的书。",
-    "sentence_py": "Nà shì wǒ de shū.",
-    "sentence_en": "That is my book."
+    "sentence_py": "Nà shì shénme?",
+    "sentence_en": "What is that?"
   },
   {
     "id": 146,
@@ -171,9 +171,9 @@
     "english": "person",
     "arabic": "شخص / إنسان",
     "image": "./Hsk-1/images/170-ren.png",
-    "sentence_cn": "他是机器人。",
-    "sentence_py": "Tā shì jīqì rén.",
-    "sentence_en": "He is a robot."
+    "sentence_cn": "一个人。",
+    "sentence_py": "Yí ge rén.",
+    "sentence_en": "A person."
   },
   {
     "id": 173,
@@ -189,12 +189,12 @@
   {
     "id": 181,
     "word": "谁",
-    "pinyin": "shéi",
+    "pinyin": "shuí/shéi",
     "english": "who",
     "arabic": "من؟",
     "image": "./Hsk-1/images/181-shei.png",
     "sentence_cn": "他是谁？",
-    "sentence_py": "Tā shì shéi?",
+    "sentence_py": "Tā shì shuí?",
     "sentence_en": "Who is he?"
   },
   {
@@ -216,7 +216,7 @@
     "arabic": "يكون",
     "image": "./Hsk-1/images/188-shi.png",
     "sentence_cn": "我是学生。",
-    "sentence_py": "Wǒ shì xuésheng.",
+    "sentence_py": "Wǒ shì xuéshēng.",
     "sentence_en": "I am a student."
   },
   {
@@ -238,7 +238,7 @@
     "arabic": "هو",
     "image": "./Hsk-1/images/200-ta.png",
     "sentence_cn": "他不是学生。",
-    "sentence_py": "Tā bú shì xuésheng.",
+    "sentence_py": "Tā bú shì xuéshēng.",
     "sentence_en": "He is not a student."
   },
   {
@@ -249,7 +249,7 @@
     "arabic": "هي",
     "image": "./Hsk-1/images/202-ta.png",
     "sentence_cn": "她是大学生。",
-    "sentence_py": "Tā shì dàxuésheng.",
+    "sentence_py": "Tā shì dàxuéshēng.",
     "sentence_en": "She is a university student."
   },
   {
@@ -260,7 +260,7 @@
     "arabic": "هم",
     "image": "./Hsk-1/images/203-tamen.png",
     "sentence_cn": "他们不是学生。",
-    "sentence_py": "Tāmen bú shì xuésheng.",
+    "sentence_py": "Tāmen bú shì xuéshēng.",
     "sentence_en": "They are not students."
   },
   {
@@ -271,7 +271,7 @@
     "arabic": "هن",
     "image": "./Hsk-1/images/205-tamen.png",
     "sentence_cn": "她们是学生。",
-    "sentence_py": "Tāmen shì xuésheng.",
+    "sentence_py": "Tāmen shì xuéshēng.",
     "sentence_en": "They (female) are students."
   },
   {
@@ -303,7 +303,7 @@
     "english": "five",
     "arabic": "خمسة",
     "image": "./Hsk-1/images/223-wu.png",
-    "sentence_cn": "今天五月五号。",
+    "sentence_cn": "今天是五月五号。",
     "sentence_py": "Jīntiān shì wǔ yuè wǔ hào.",
     "sentence_en": "Today is May 5."
   },
@@ -314,9 +314,9 @@
     "english": "thanks",
     "arabic": "شكراً",
     "image": "./Hsk-1/images/241-xiexie.png",
-    "sentence_cn": "谢谢老师。",
-    "sentence_py": "Xièxie lǎoshī.",
-    "sentence_en": "Thank you, teacher."
+    "sentence_cn": "谢谢你！",
+    "sentence_py": "Xièxie nǐ.",
+    "sentence_en": "Thank you."
   },
   {
     "id": 242,
@@ -326,18 +326,18 @@
     "arabic": "جديد",
     "image": "./Hsk-1/images/242-xin.png",
     "sentence_cn": "你是新学生吗？",
-    "sentence_py": "Nǐ shì xīn xuésheng ma?",
+    "sentence_py": "Nǐ shì xīn xuéshēng ma?",
     "sentence_en": "Are you a new student?"
   },
   {
     "id": 248,
     "word": "学生",
-    "pinyin": "xuésheng",
+    "pinyin": "xuéshēng",
     "english": "student",
     "arabic": "طالب",
     "image": "./Hsk-1/images/248-xuesheng.png",
     "sentence_cn": "他是学生。",
-    "sentence_py": "Tā shì xuésheng.",
+    "sentence_py": "Tā shì xuéshēng.",
     "sentence_en": "He is a student."
   },
   {
@@ -348,7 +348,7 @@
     "arabic": "طالب ابتدائي",
     "image": "./Hsk-1/images/238-xiaoxuesheng.png",
     "sentence_cn": "我弟弟是小学生。",
-    "sentence_py": "Dìdi shì xiǎoxuésheng.",
+    "sentence_py": "Dìdi shì xiǎoxuéshēng.",
     "sentence_en": "My younger brother is a primary school student."
   },
   {
@@ -358,7 +358,7 @@
     "english": "one",
     "arabic": "واحد",
     "image": "./Hsk-1/images/254-yi.png",
-    "sentence_cn": "今天一月一号。",
+    "sentence_cn": "今天是一月一号。",
     "sentence_py": "Jīntiān shì yī yuè yī hào.",
     "sentence_en": "Today is January 1."
   },
@@ -392,7 +392,7 @@
     "arabic": "طالب إعدادي/ثانوي",
     "image": "./Hsk-1/images/293-zhongxuesheng.png",
     "sentence_cn": "他是中学生。",
-    "sentence_py": "Tā shì zhōngxuésheng.",
+    "sentence_py": "Tā shì zhōngxuéshēng.",
     "sentence_en": "He is a middle school student."
   }
 ]
