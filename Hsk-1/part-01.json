@@ -343,7 +343,7 @@
   {
     "id": 238,
     "word": "小学生",
-    "pinyin": "xiǎoxuésheng",
+    "pinyin": "xiǎoxuéshēng",
     "english": "primary school student",
     "arabic": "طالب ابتدائي",
     "image": "./Hsk-1/images/238-xiaoxuesheng.png",
@@ -387,7 +387,7 @@
   {
     "id": 293,
     "word": "中学生",
-    "pinyin": "zhōngxuésheng",
+    "pinyin": "zhōngxuéshēng",
     "english": "middle school student",
     "arabic": "طالب إعدادي/ثانوي",
     "image": "./Hsk-1/images/293-zhongxuesheng.png",
