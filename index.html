@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -27,18 +28,19 @@
         }
         .float-effect { animation: float 3s ease-in-out infinite; }
 
-        /* 新增：增强卡片的立体边框感，防止视觉粘连 */
         .premium-card {
             box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
             border: 1px solid rgba(226, 232, 240, 0.8);
         }
     </style>
 </head>
-<body class="bg-slate-100/80 min-h-screen"> <header class="text-center pt-12 pb-8 relative overflow-hidden">
+<body class="bg-slate-100/80 min-h-screen">
+    
+    <header class="text-center pt-12 pb-8 relative overflow-hidden">
         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-80 h-80 bg-blue-100/40 blur-3xl rounded-full -z-10"></div>
         
-        <h1 class="text-2xl md:text-4xl font-black text-slate-800 tracking-tight mb-4">
-            <span class="text-gradient">HSK 3.0 在线三语学习词典</span>
+        <h1 class="text-2xl md:text-4xl font-black text-slate-800 tracking-tight mb-4 px-4 text-gradient">
+            HSK 3.0 在线三语学习词典
         </h1>
         
         <div class="flex items-center justify-center gap-2">
@@ -53,7 +55,6 @@
 
     <main class="p-4 md:p-8 pt-0">
         <div id="status" class="text-center text-slate-400 py-10 font-medium">正在加载词典数据...</div>
-
         <div id="dictionary" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto pb-20"></div>
     </main>
 
@@ -62,10 +63,11 @@
 
         function speak(text) {
             if (!text) return;
+            // 取消当前正在进行的朗读，避免堆叠
             window.speechSynthesis.cancel();
             const msg = new SpeechSynthesisUtterance(text);
             msg.lang = 'zh-CN';
-            msg.rate = 0.6; 
+            msg.rate = 0.7; // 语速微调，比刚才稍快一点点，更自然
             window.speechSynthesis.speak(msg);
         }
 
@@ -93,7 +95,6 @@
             
             data.forEach((word, index) => {
                 const card = document.createElement('div');
-                // 修改点：使用 premium-card 类，并增加 mb-4 确保移动端堆叠时有间距
                 card.className = 'bg-white rounded-3xl p-6 card-enter premium-card flex flex-col transition-all hover:shadow-xl';
                 card.style.animationDelay = `${index * 0.08}s`;
 
@@ -101,39 +102,6 @@
                     `<img src="${word.image}" class="w-full h-64 object-cover rounded-2xl mb-6 bg-slate-50 shadow-inner">` : 
                     `<div class="w-full h-64 bg-slate-100 rounded-2xl mb-6 flex items-center justify-center text-slate-300 font-bold italic text-sm">IMAGE</div>`;
 
+                // 核心修复：确保 onclick 中的字段名与数据完全对应
                 card.innerHTML = `
-                    ${imageHtml}
-                    <div class="flex justify-between items-center mb-5">
-                        <div onclick="speak('${word.word}')" class="group cursor-pointer clickable">
-                            <span class="text-3xl font-black text-slate-800 group-hover:text-blue-600 transition-colors">${word.word}</span>
-                            <span class="text-xl ml-1 text-blue-200 group-hover:text-blue-500">🔊</span>
-                        </div>
-                        <span class="text-blue-500 font-bold tracking-wide bg-blue-50 px-3 py-1 rounded-lg text-sm">${word.pinyin}</span>
-                    </div>
-                    
-                    <div class="space-y-2 mb-6 text-sm border-l-4 border-blue-50 pl-4">
-                        <p class="text-slate-500 font-medium"><span class="opacity-40 mr-1 font-mono text-xs italic">meaning</span> ${word.english}</p>
-                        <p dir="rtl" class="text-right font-bold text-slate-700 text-lg leading-relaxed">${word.arabic}</p>
-                    </div>
-
-                    <div class="relative py-4 mb-2">
-                        <div class="absolute inset-0 flex items-center"><div class="w-full border-t border-slate-100"></div></div>
-                        <div class="relative flex justify-center text-[10px] uppercase tracking-[0.2em] font-black text-slate-300">
-                            <span class="bg-white px-4">Usage context</span>
-                        </div>
-                    </div>
-                    
-                    <div onclick="speak('${word.sentence_cn}')" class="bg-slate-50/80 hover:bg-blue-50/50 p-5 rounded-2xl cursor-pointer clickable transition-all group mt-auto border border-transparent hover:border-blue-100">
-                        <p class="font-bold text-slate-800 mb-2 group-hover:text-blue-700 text-base leading-snug">${word.sentence_cn}</p>
-                        <p class="text-blue-400 text-xs italic mb-2 font-semibold tracking-wide">${word.sentence_py}</p>
-                        <p class="text-slate-500 text-xs leading-relaxed font-medium">${word.sentence_en}</p>
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-        }
-
-        init();
-    </script>
-</body>
-</html>
+                    ${
